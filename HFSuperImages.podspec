@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HFSuperImages'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of HFSuperImages.'
+  s.summary          = 'A convenience CocoaPod that extends the UIImage Swift class'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+"HFSuperImages is a CocoaPod that extends the UIImageView class with a convenience method for rounding an image view with a specified border color and widht. Enjoy!"
                        DESC
 
   s.homepage         = 'https://github.com/claudioitalian12/HFSuperImages'
@@ -31,12 +31,11 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'HFSuperImages/Classes/**/*'
-  
   # s.resource_bundles = {
   #   'HFSuperImages' => ['HFSuperImages/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
